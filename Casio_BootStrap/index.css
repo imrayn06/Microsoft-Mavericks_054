@@ -35,7 +35,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
-<<<<<<< HEAD
 }
 
 /* ---------------------------- */
@@ -80,6 +79,43 @@ footer {
   .navbar2>ul{
     margin-left:40px;
   }
-=======
+  .heart {
+
+    position: absolute;
+    margin-left: 228px;
+    width: 50px;
+    height: 50px;
 }
->>>>>>> develop
+
+.ribbon {
+    background-color: white;
+    color: black;
+    position: absolute;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 10px;
+    font-weight: bold;
+    left: 11.9px;
+    line-height: 15px;
+
+}
+.black{
+  background-color: black;
+  width: 273px;
+  height: 89.172px;
+  padding: 15px 15px 15px 15px;
+  
+}
+.black>p{
+  color: white;
+  font-size: 14px;
+  
+}
+.count{
+  margin: -30px 0px 20px 0px;
+  font-size: 15px;
+  color: #252525;
+  font-weight: 600;
+}
