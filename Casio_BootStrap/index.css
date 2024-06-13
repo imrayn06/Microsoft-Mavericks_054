@@ -102,27 +102,47 @@ footer {
     gap:30px;
     margin-top: 10px;
   }
-  .sizes-section>ul.boxes>li{
-    margin-top:30px;
-  }
-  .sizes-section>.boxes>button>a, .display-type-section>div>button>a, .function-section>div>button>a, .brand-series-section>div>button>a,.menu>ul>li>a{
-    text-decoration: none;
-    
-    color:black;
-  }
-  .sizes-section>.boxes>button:hover, .display-type-section>div>button>a:hover, .function-section>div>button>a:hover, .brand-series-section>div>button>a:hover{
-    border:1px solid black;
-  }
+  
   .sidebar{
-    width:600px;
+    max-width:20%;
     height:80%;
     position: sticky;
     top: 0;
     left: 0;
+    margin-right:100px;
   }
+  .sidebar>div{
+    margin-bottom:15px;
+    
+  }
+  .sizes-section>ul.boxes>li{
+    margin-top:30px;
+  }
+  div>div>button{
+    margin-left: 10px;
+  }
+   div.display-type-section>.display>.boxes>button>a, div.sizes-section>.sizes>.boxes>button>a , div.function-section>.function>.boxes>button>a{
+    text-decoration: none;
+    color:black;
+  }
+  
+  div.brand-series-section>.brand-series>.boxes>button>a,.menu>ul>li>a{
+    text-decoration: none;
+    color:black;
+  }
+  div.sizes-section>.sizes>.boxes>button>a:hover, div.display-type-section>div.display>.boxes>button>a:hover, .function-section>div.function>.boxes>button>a:hover, .brand-series-section>div.brand-series>.boxes>button>a:hover{
+    border:1px solid black;
+    padding:10px;
+    
+  }
+
   .sizes-section>h5{
     margin-bottom: 10px;
   }
   .border-none {
     border: none !important;
   }
+  
+  
+  
+  
