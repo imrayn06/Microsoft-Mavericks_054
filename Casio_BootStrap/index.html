@@ -53,24 +53,39 @@
             text-decoration: none;
 
         }
+
         .group>a:hover {
             text-decoration: none;
         }
 
         .signle-watch>a:hover {
             border: 1px solid;
-            transition: transform 0.3s ease; 
-            
+            transition: transform 0.3s ease;
+
         }
+
         .signle-watch>a:hover {
             text-decoration: none;
             color: black;
         }
-        .heart:hover{
+
+        .heart:hover {
             transform: scale(1.1);
-            transition: transform 0.3s ease; 
+            transition: transform 0.3s ease;
             opacity: 1;
             border-radius: 50%;
+        }
+
+        .heart:active {
+            
+            background-color: rgb(247, 95, 95);
+            color: white;
+            width: 35px;
+            height: 35px;
+            transition: background-color 0.3s, color 0.2s ease;
+            margin-top: 10px;
+            margin-right: 10px;
+
         }
     </style>
 </head>
@@ -435,7 +450,7 @@
                     </div>
                 </a>
             </div>
-            
+
         </div>
         <!-- Content here -->
     </div>
