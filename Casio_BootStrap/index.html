@@ -53,203 +53,471 @@
     </nav>
 
     <!-- adding mid-section Navbar(Ashita) -->
-    <div class="container">
-      <navmid1
-        class="navbar navbar-expand-lg d-flex justify-content-end"
-        style="display: flex; align-items: center; gap: 700px"
+    <div class="container-xxl">
+      <div
+        class="mid-navbar"
+        
       >
-        <div class="image">
-          <img
-            class="logo"
-            width="150px"
-            height="70px"
-            src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/logo.png"
-            alt=""
-          />
+        <div class="watches">
+        <span class="heading fs-3 text-start ml-5"><strong>WATCHES</strong>
+        </span>
         </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul
-            class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row justify-content-end gap-10"
-          >
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#"
-                >KASIO Brand Site</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Store Search</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Support</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Services
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#"
-                    >Customize KASIO Watches for Gifts</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"
-                    >Degree of Water Resistance</a
-                  >
-                </li>
-              </ul>
-            </li>
+        <div class="menu">
+          <ul>
+            <li><a href="#">G-SHOCK Brand Site</a></li>
+            <li><a href="#">Store Search</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Services</a></li>
           </ul>
         </div>
-      </navmid1>
+        
+      </div>
       <hr />
-      <navmid class="navbar2">
+      <div class="navbar2">
         <ul class="list-unstyled d-flex gap-3">
           <li><a href="#">All</a></li>
           <li><a href="#">BESTSELLERS</a></li>
           <li><a href="#">New Products</a></li>
+          <li><a href="#">KASIO</a></li>
           <li><a href="#">BABY-G </a></li>
           <li><a href="#">PROTREK</a></li>
           <li><a href="#">EDIFICE</a></li>
           <li><a href="#">SHEEN</a></li>
-          <li><a href="#">KASIO</a></li>
           <li><a href="#">Vintage</a></li>
           <li><a href="#">ENTICER</a></li>
           <li><a href="#">Youth</a></li>
           <li><a href="#">Clock</a></li>
         </ul>
         <hr />
-      </navmid>
-    </div>
-    <!-- ashita end  -->
-    <!-- Narayan's part starts from here -->
-    <div class="container grid gap-0 column-gap-1">
-      <div class="row row-cols-4 row-cols-md-5 g-3">
-        <div class="card" style="width: 18rem">
-          <img
-            src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/ax44h-jx9g6.svg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <p class="card-text">5600 series</p>
+      </div>
+
+      <!-- ashita end  -->
+      <!-- Sidebar section started (Ashita) -->
+      <div class="sidebar-cards d-flex">
+        <div class="sidebar lh-lg" width="100px" height="100vh">
+          <div class="sort-section">
+            <h5>Sort</h5>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="sortOptions"
+                id="sortNewest"
+                checked
+              />
+              <label class="form-check-label" for="sortNewest">Newest</label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="sortOptions"
+                id="sortPriceHighLow"
+              />
+              <label class="form-check-label" for="sortPriceHighLow"
+                >Price: High-Low</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="sortOptions"
+                id="sortPriceLowHigh"
+              />
+              <label class="form-check-label" for="sortPriceLowHigh"
+                >Price: Low-High</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="sortOptions"
+                id="sortWeightHeavyLight"
+              />
+              <label class="form-check-label" for="sortWeightHeavyLight"
+                >Weight: Heavy-Light</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="sortOptions"
+                id="sortWeightLightHeavy"
+              />
+              <label class="form-check-label" for="sortWeightLightHeavy"
+                >Weight: Light-Heavy</label
+              >
+            </div>
+          </div>
+
+          <div class="price-section mt-2">
+            <h5>Price Range</h5>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="priceRange1"
+              />
+              <label class="form-check-label" for="priceRange1"
+                >Below ₹5000</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="priceRange2"
+              />
+              <label class="form-check-label" for="priceRange2"
+                >₹5000 - ₹10000</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="priceRange3"
+              />
+              <label class="form-check-label" for="priceRange3"
+                >₹10000 - ₹20000</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="priceRange4"
+              />
+              <label class="form-check-label" for="priceRange3"
+                >₹20000 - ₹30000</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="priceRange5"
+              />
+              <label class="form-check-label" for="priceRange3"
+                >₹30000 - ₹40000</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="priceRange6"
+              />
+              <label class="form-check-label" for="priceRange3"
+                >₹40000 - ₹50000</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="priceRange7"
+              />
+              <label class="form-check-label" for="priceRange3"
+                >Above ₹50000</label
+              >
+            </div>
+          </div>
+
+          <div class="sizes-section mt-2">
+            <h5>Sizes</h5>
+            <div class="boxes list-unstyled d-flex">
+              <button
+                class="d-inline p-2 text-bg-light mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">Mens</a>
+              </button>
+              <button
+                class="d-inline p-2 text-bg-light mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">Women</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="display-type-section mt-2">
+            <h5>Display Type</h5>
+            <div class="boxes list-unstyled grid">
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">Analog</a>
+              </button>
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">Digital</a>
+              </button>
+
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">Digital and Analog</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="function-section mt-2">
+            <h5>Functions</h5>
+            <div class="boxes list-unstyled grid">
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">Solar charger</a>
+              </button>
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">Water resistance</a>
+              </button>
+
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">Smartphone Link</a>
+              </button>
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">Tide graph</a>
+              </button>
+
+              
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">Moon data</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="brand-series-section mt-2">
+            <h5>Brand Series</h5>
+            <div class="boxes list-unstyled grid">
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">G-SHOCK</a>
+              </button>
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">BABY-G</a>
+              </button>
+
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">PRO TREK</a>
+              </button>
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">EDIFICE</a>
+              </button>
+
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">SHEEN</a>
+              </button>
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">KASIO</a>
+              </button>
+
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">Paired Watches</a>
+              </button>
+
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">Table Clocks</a>
+              </button>
+              <button
+                class="d-inline p-2 text-bg-light rounded-1 mr-2 mb-3 border-none"
+                width="8px"
+                height="10px"
+              >
+                <a href="#">Wall Clocks</a>
+              </button>
+            </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/auy8t-4f8jf.svg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <p class="card-text">2100 series</p>
+        <div class="row row-cols-4 row-cols-md-5 g-3">
+          <div class="card" style="width: 18rem">
+            <img
+              src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/ax44h-jx9g6.svg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">5600 series</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/a8bmz-se9tk.svg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <p class="card-text">110 seires</p>
+          <div class="card" style="width: 18rem">
+            <img
+              src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/auy8t-4f8jf.svg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">2100 series</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/acrpk-g1hxj.svg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <p class="card-text">6900 Series</p>
+          <div class="card" style="width: 18rem">
+            <img
+              src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/a8bmz-se9tk.svg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">110 seires</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/abvqz-osdj5.svg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <p class="card-text">G-Shock</p>
-            <p class="card-text">GMW-B5000D-2</p>
-            <p class="card-text">MRP</p>
-            <p class="card-text">₹ 35,995 (incl. of all taxes)</p>
+          <div class="card" style="width: 18rem">
+            <img
+              src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/acrpk-g1hxj.svg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">6900 Series</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/abear-2z4r9.svg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <p class="card-text gshock">G-Shock</p>
-            <p class="card-text">GMW-B5000D-2</p>
-            <p class="card-text">MRP</p>
-            <p class="card-text">₹ 35,995 (incl. of all taxes)</p>
+          <div class="card" style="width: 18rem">
+            <img
+              src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/abvqz-osdj5.svg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">G-Shock</p>
+              <p class="card-text">GMW-B5000D-2</p>
+              <p class="card-text">MRP</p>
+              <p class="card-text">₹ 35,995 (incl. of all taxes)</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/a7ro5-lxkic.svg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <p class="card-text gshock">G-Shock</p>
-            <p class="card-text">GMW-B5000D-2</p>
-            <p class="card-text">MRP</p>
-            <p class="card-text">₹ 35,995 (incl. of all taxes)</p>
+          <div class="card" style="width: 18rem">
+            <img
+              src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/abear-2z4r9.svg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text gshock">G-Shock</p>
+              <p class="card-text">GMW-B5000D-2</p>
+              <p class="card-text">MRP</p>
+              <p class="card-text">₹ 35,995 (incl. of all taxes)</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/ai71h-wismi.svg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <p class="card-text">G-Shock</p>
-            <p class="card-text">GMW-B5000D-2</p>
-            <p class="card-text">MRP</p>
-            <p class="card-text">₹ 35,995 (incl. of all taxes)</p>
+          <div class="card" style="width: 18rem">
+            <img
+              src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/a7ro5-lxkic.svg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text gshock">G-Shock</p>
+              <p class="card-text">GMW-B5000D-2</p>
+              <p class="card-text">MRP</p>
+              <p class="card-text">₹ 35,995 (incl. of all taxes)</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/aeprx-hv2cj.svg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <p class="card-text">G-Shock</p>
-            <p class="card-text">GMW-B5000D-2</p>
-            <p class="card-text">MRP</p>
-            <p class="card-text">₹ 35,995 (incl. of all taxes)</p>
+          <div class="card" style="width: 18rem">
+            <img
+              src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/ai71h-wismi.svg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">G-Shock</p>
+              <p class="card-text">GMW-B5000D-2</p>
+              <p class="card-text">MRP</p>
+              <p class="card-text">₹ 35,995 (incl. of all taxes)</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/ad7yz-v40jm.svg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <p class="card-text">G-Shock</p>
-            <p class="card-text">GMW-B5000D-2</p>
-            <p class="card-text">MRP</p>
-            <p class="card-text">₹ 35,995 (incl. of all taxes)</p>
+          <div class="card" style="width: 18rem">
+            <img
+              src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/aeprx-hv2cj.svg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">G-Shock</p>
+              <p class="card-text">GMW-B5000D-2</p>
+              <p class="card-text">MRP</p>
+              <p class="card-text">₹ 35,995 (incl. of all taxes)</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="/Microsoft-Mavericks_054/Casio_BootStrap/Assets/watch_pictures/ad7yz-v40jm.svg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">G-Shock</p>
+              <p class="card-text">GMW-B5000D-2</p>
+              <p class="card-text">MRP</p>
+              <p class="card-text">₹ 35,995 (incl. of all taxes)</p>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- sidebar section ended(Ashita) -->
+    <!-- Narayan's part starts from here -->
+    <div class="container grid gap-0 column-gap-1">
       <!-- Content here -->
     </div>
     <!-- and ends here -->
