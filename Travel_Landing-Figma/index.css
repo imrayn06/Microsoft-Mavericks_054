@@ -6,7 +6,6 @@
   height: 8446px;
   margin: auto;
   font-family: "Inter", sans-serif;
-  border: 1px solid black;
 }
 .container .navbar {
   width: 1320px;
@@ -212,18 +211,22 @@
   opacity: 0px;
 }
 .container section {
+  width: 1320px;
+  display: flex;
+  margin-top: 45px;
+}
+.container section .overview-cards-section {
   width: 880px;
   height: 773px;
-  border: 1px solid black;
 }
-.container section .small-cards {
+.container section .overview-cards-section .small-cards {
   display: flex;
   gap: 40px;
 }
-.container section .small-cards .scard-1 {
+.container section .overview-cards-section .small-cards .scard-1 {
   display: flex;
 }
-.container section .small-cards .scard-1 .box {
+.container section .overview-cards-section .small-cards .scard-1 .box {
   width: 40px;
   height: 40px;
   top: 15px;
@@ -236,13 +239,13 @@
   border: 1px solid #E7E6E6;
   margin: 15px 10px 0px 15px;
 }
-.container section .small-cards .scard-1 div {
+.container section .overview-cards-section .small-cards .scard-1 div {
   margin-top: 11px;
 }
-.container section .small-cards .scard-2 {
+.container section .overview-cards-section .small-cards .scard-2 {
   display: flex;
 }
-.container section .small-cards .scard-2 .box {
+.container section .overview-cards-section .small-cards .scard-2 .box {
   width: 40px;
   height: 40px;
   top: 15px;
@@ -255,13 +258,13 @@
   border: 1px solid #E7E6E6;
   margin: 15px 10px 0px 15px;
 }
-.container section .small-cards .scard-2 div {
+.container section .overview-cards-section .small-cards .scard-2 div {
   margin-top: 11px;
 }
-.container section .small-cards .scard-3 {
+.container section .overview-cards-section .small-cards .scard-3 {
   display: flex;
 }
-.container section .small-cards .scard-3 .box {
+.container section .overview-cards-section .small-cards .scard-3 .box {
   width: 40px;
   height: 40px;
   top: 15px;
@@ -274,13 +277,13 @@
   border: 1px solid #E7E6E6;
   margin: 15px 10px 0px 15px;
 }
-.container section .small-cards .scard-3 div {
+.container section .overview-cards-section .small-cards .scard-3 div {
   margin-top: 11px;
 }
-.container section .small-cards .scard-4 {
+.container section .overview-cards-section .small-cards .scard-4 {
   display: flex;
 }
-.container section .small-cards .scard-4 .box {
+.container section .overview-cards-section .small-cards .scard-4 .box {
   width: 40px;
   height: 40px;
   top: 15px;
@@ -293,10 +296,10 @@
   border: 1px solid #E7E6E6;
   margin: 15px 10px 0px 15px;
 }
-.container section .small-cards .scard-4 div {
+.container section .overview-cards-section .small-cards .scard-4 div {
   margin-top: 11px;
 }
-.container section .tour-overview h2 {
+.container section .overview-cards-section .tour-overview h2 {
   width: 208.9px;
   height: 45px;
   top: 125px;
@@ -310,7 +313,7 @@
   line-height: 45px;
   text-align: left;
 }
-.container section .tour-overview p {
+.container section .overview-cards-section .tour-overview p {
   width: 844.72px;
   height: 104.37px;
   top: 194px;
@@ -324,7 +327,7 @@
   text-align: left;
   margin: 24px 0px 0px 15px;
 }
-.container section .tour-overview ul h3 {
+.container section .overview-cards-section .tour-overview ul h3 {
   width: 139.59px;
   height: 30px;
   top: 322.5px;
@@ -338,6 +341,108 @@
   text-align: left;
   margin: 24px 0px 24px -20px;
 }
-.container section .tour-overview ul li {
+.container section .overview-cards-section .tour-overview ul li {
   line-height: 25px;
+}
+.container section .ticket-prices {
+  width: 360px;
+  height: 773.5px;
+  border: 1px solid #f7f5f5;
+  gap: 0px;
+  border-radius: 12px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.0509803922);
+  margin-left: 65px;
+}
+.container section .ticket-prices h4 {
+  margin-left: 31px;
+}
+.container section .ticket-prices .date-time {
+  width: 305px;
+  height: 169px;
+  border: 1px solid #E7E6E6;
+  margin-left: 20px;
+  border-radius: 12px;
+}
+.container section .ticket-prices .date-time .date {
+  width: 298px;
+  height: 143px;
+  display: flex;
+  gap: 15px;
+  margin-left: 31px;
+}
+.container section .ticket-prices .date-time .date .box {
+  margin-top: 5px;
+  width: 40px;
+  height: 40px;
+  padding: 15px 14.8px 15px 15px;
+  gap: 0px;
+  border-radius: 12px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #E7E6E6;
+  background-color: #e8e4e4;
+}
+.container section .ticket-prices .date-time .time {
+  width: 298px;
+  height: 143px;
+  display: flex;
+  gap: 15px;
+  margin-left: 31px;
+  margin-top: -55px;
+}
+.container section .ticket-prices .date-time .time .box {
+  width: 40px;
+  height: 40px;
+  padding: 15px 14.8px 15px 15px;
+  gap: 0px;
+  border-radius: 12px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #E7E6E6;
+  background-color: #e8e4e4;
+}
+.container section .ticket-prices .tickets ul h4 {
+  margin-left: -10px;
+}
+.container section .ticket-prices .tickets ul li {
+  line-height: 40px;
+}
+.container section .ticket-prices .extra div {
+  margin-left: 20px;
+  line-height: 40px;
+}
+.container section .ticket-prices .total {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  gap: 190px;
+}
+.container section .ticket-prices .total span {
+  font-family: Inter;
+  font-size: 17.72px;
+  font-weight: 500;
+  line-height: 33.75px;
+  text-align: left;
+}
+.container section .ticket-prices .book {
+  margin-top: 25px;
+}
+.container section .ticket-prices .book button {
+  width: 298px;
+  height: 62px;
+  top: 680.5px;
+  left: 31px;
+  padding: 21px 101.38px 21px 101.56px;
+  gap: 0px;
+  border-radius: 12px;
+  opacity: 0px;
+  margin-left: 31px;
+  background-color: #EB662B;
+  border: none;
+}
+.container section .ticket-prices .book button a {
+  color: white;
+  text-decoration: none;
 }/*# sourceMappingURL=index.css.map */

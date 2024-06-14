@@ -14,11 +14,11 @@ $content:14.77px;
   height:8446px;
   margin: auto;
   font-family: "Inter", sans-serif;
-  border:$border;
+  
+
   .navbar {
     width:$Width;
     height: 88px;
-    
     display: flex;
   
     p{
@@ -259,94 +259,97 @@ $content:14.77px;
   }
 
   section{
-    width:880px;
-    height: 773px;
-    border: $border;
-
-    .small-cards{
-        display: flex;
-        gap:40px;
-        .scard-1{
+    width:1320px;
+    display: flex;
+    margin-top:45px;
+    .overview-cards-section{
+        width:880px;
+        height: 773px;
+       
+        .small-cards{
             display: flex;
-            .box{
-                width: 40px;
-                height: 40px;
-                top: 15px;
-                left: 15px;
-                padding: 15px 14.8px 15px 15px;
-                gap: 0px;
-                border-radius: 12px;
-                border: 1px 0px 0px 0px;
-                opacity: 0px;
-                border:1px solid 
-                #E7E6E6;
-                margin:15px 10px 0px 15px;
+            gap:40px;
+            .scard-1{
+                display: flex;
+                .box{
+                    width: 40px;
+                    height: 40px;
+                    top: 15px;
+                    left: 15px;
+                    padding: 15px 14.8px 15px 15px;
+                    gap: 0px;
+                    border-radius: 12px;
+                    border: 1px 0px 0px 0px;
+                    opacity: 0px;
+                    border:1px solid 
+                    #E7E6E6;
+                    margin:15px 10px 0px 15px;
+                }
+                div{
+                    margin-top:11px;
+                }
             }
-            div{
-                margin-top:11px;
+            .scard-2{
+                display: flex;
+                .box{
+                    width: 40px;
+                    height: 40px;
+                    top: 15px;
+                    left: 15px;
+                    padding: 15px 14.8px 15px 15px;
+                    gap: 0px;
+                    border-radius: 12px;
+                    border: 1px 0px 0px 0px;
+                    opacity: 0px;
+                    border:1px solid 
+                    #E7E6E6;
+                    margin:15px 10px 0px 15px;
+                }
+                div{
+                    margin-top:11px;
+                }
+            }
+            .scard-3{
+                display: flex;
+                .box{
+                    width: 40px;
+                    height: 40px;
+                    top: 15px;
+                    left: 15px;
+                    padding: 15px 14.8px 15px 15px;
+                    gap: 0px;
+                    border-radius: 12px;
+                    border: 1px 0px 0px 0px;
+                    opacity: 0px;
+                    border:1px solid 
+                    #E7E6E6;
+                    margin:15px 10px 0px 15px;
+                }
+                div{
+                    margin-top:11px;
+                }
+            }
+            .scard-4{
+                display: flex;
+                .box{
+                    width: 40px;
+                    height: 40px;
+                    top: 15px;
+                    left: 15px;
+                    padding: 15px 14.8px 15px 15px;
+                    gap: 0px;
+                    border-radius: 12px;
+                    border: 1px 0px 0px 0px;
+                    opacity: 0px;
+                    border:1px solid 
+                    #E7E6E6;
+                    margin:15px 10px 0px 15px;
+                }
+                div{
+                    margin-top:11px;
+                }
             }
         }
-        .scard-2{
-            display: flex;
-            .box{
-                width: 40px;
-                height: 40px;
-                top: 15px;
-                left: 15px;
-                padding: 15px 14.8px 15px 15px;
-                gap: 0px;
-                border-radius: 12px;
-                border: 1px 0px 0px 0px;
-                opacity: 0px;
-                border:1px solid 
-                #E7E6E6;
-                margin:15px 10px 0px 15px;
-            }
-            div{
-                margin-top:11px;
-            }
-        }
-        .scard-3{
-            display: flex;
-            .box{
-                width: 40px;
-                height: 40px;
-                top: 15px;
-                left: 15px;
-                padding: 15px 14.8px 15px 15px;
-                gap: 0px;
-                border-radius: 12px;
-                border: 1px 0px 0px 0px;
-                opacity: 0px;
-                border:1px solid 
-                #E7E6E6;
-                margin:15px 10px 0px 15px;
-            }
-            div{
-                margin-top:11px;
-            }
-        }
-        .scard-4{
-            display: flex;
-            .box{
-                width: 40px;
-                height: 40px;
-                top: 15px;
-                left: 15px;
-                padding: 15px 14.8px 15px 15px;
-                gap: 0px;
-                border-radius: 12px;
-                border: 1px 0px 0px 0px;
-                opacity: 0px;
-                border:1px solid 
-                #E7E6E6;
-                margin:15px 10px 0px 15px;
-            }
-            div{
-                margin-top:11px;
-            }
-        }
-    }
     .tour-overview{
         h2{
             width: 208.9px;
@@ -395,9 +398,128 @@ $content:14.77px;
             }
             li{
                 line-height: 25px;
+              }
+          }
+        
+        }
+    }
+    .ticket-prices{
+        width: 360px;
+        height: 773.5px;
+        border:1px solid #f7f5f5;
+        gap: 0px;
+        border-radius: 12px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        box-shadow: 0px 10px 40px 0px #0000000D;
+
+        margin-left:65px;
+
+        h4{
+           
+            margin-left: 31px;
+        }
+        .date-time{
+            width:305px;
+            height:169px;
+            border:1px solid #E7E6E6;
+            margin-left:20px;
+            border-radius: 12px;;
+            .date{
+                width:298px;
+                height:143px;
+                display: flex;
+                gap:15px;
+                margin-left: 31px;
+                
+                .box{
+                    margin-top:5px;
+                    width: 40px;
+                    height: 40px;
+                    padding: 15px 14.8px 15px 15px;
+                    gap: 0px;
+                    border-radius: 12px;
+                    border: 1px 0px 0px 0px;
+                    opacity: 0px;
+                    border:1px solid 
+                    #E7E6E6;
+                    background-color: #e8e4e4;
+                }
+            }
+            .time{
+                width:298px;
+                height:143px;
+                display: flex;
+                gap:15px;
+                margin-left: 31px;
+                margin-top: -55px;
+                .box{
+                    width: 40px;
+                    height: 40px;
+                    padding: 15px 14.8px 15px 15px;
+                    gap: 0px;
+                    border-radius: 12px;
+                    border: 1px 0px 0px 0px;
+                    opacity: 0px;
+                    border:1px solid 
+                    #E7E6E6;
+                    background-color: #e8e4e4;
+                }
             }
         }
-        
+        .tickets{
+            ul{
+                h4{
+                    margin-left:-10px;
+                }
+                li{
+                    line-height: 40px;;
+                }
+            }
+        }
+        .extra{
+            div{
+                margin-left:20px;
+                line-height: 40px;;
+
+
+            }
+        }
+        .total{
+            display: flex;
+            justify-content: center;
+            margin-top:24px;
+            gap:190px;
+            span{
+                font-family: Inter;
+                font-size: 17.72px;
+                font-weight: 500;
+                line-height: 33.75px;
+                text-align: left;
+
+            }
+        }
+        .book{
+            margin-top:25px;
+
+            button{
+                width: 298px;
+                height: 62px;
+                top: 680.5px;
+                left: 31px;
+                padding: 21px 101.38px 21px 101.56px;
+                gap: 0px;
+                border-radius: 12px ;
+                opacity: 0px;
+                margin-left: 31px;
+                background-color:#EB662B;
+                border: none;
+                a{
+                    color:white;
+                    text-decoration: none;
+                }
+            }
+        }
     }
   }
 }
