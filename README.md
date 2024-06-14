@@ -1,10 +1,10 @@
 # CW-B36
 Masai_Construct_Week
 
-# Project Title
+# G-Shock Inspired website UI clone
 
 ## Introduction
-A brief introduction of your project goes here. You may want to cover the purpose of your project, its core functionality, and what problems it solves.
+This ia G-Shock website clone done under Construct week.
 
 ## Project Type
 Frontend
