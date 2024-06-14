@@ -87,3 +87,35 @@ footer {
     padding: 20px 0;
     text-align: center;
 }
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.day {
+    margin: 1rem;
+    padding: 1rem;
+    position: relative; /* Allows positioning the checkpoint bar */
+}
+
+.day:before { /* Creates the checkpoint bar before the content */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;  /* Adjust width as needed */
+    height: 100%; /* Fills the entire section height */
+    background-color: orange;
+}
+
+.day p {
+    margin-top: 0.5rem;
+    padding-left: 15px; /* Add space for the checkpoint bar */
+}
