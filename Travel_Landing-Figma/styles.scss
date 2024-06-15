@@ -1,7 +1,7 @@
 // Variables
 $primary-color: #333;
 $secondary-color: #f4f4f4;
-
+$width:880px;
 // Mixins
 @mixin container {
     max-width: 1200px;
@@ -94,7 +94,7 @@ body {
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
     padding: 1rem;
 }
@@ -118,4 +118,71 @@ h1 {
 .day p {
     margin-top: 0.5rem;
     padding-left: 15px; /* Add space for the checkpoint bar */
+}
+.tour-map{
+    margin-top:75px;
+}
+.map-container>iframe{
+    width:900px;
+    height:550px;
+}
+.calendar{
+    margin-top:121px;
+}
+
+.faq{
+    margin-top:121px;
+    
+    .faq-que{
+        
+        .question1{
+
+            border:1px solid #E7E6E6;
+            margin-bottom: 20px;
+            width: 850px;
+            height: 166.38px;
+            top: 3126.75px;
+            left: 15px;
+            gap: 0px;
+            border-radius: 12px;
+            border: 1px 0px 0px 0px;
+            opacity: 0px;
+            box-shadow: 0px 10px 40px 0px #0000000D;
+
+
+            h4{
+                margin-left:21px;
+            }
+
+            p{
+                margin-left:21px;
+                width: 808px;
+                height: 104.38px;
+                top: 46px;
+                left: 21px;
+                padding: 15px 23.91px 4.13px 0px;
+                gap: 0px;
+                opacity: 0px;
+                line-height: 25px;
+            }
+        }
+        .question2,.question3,.question4{
+            border:1px solid #E7E6E6;
+            margin-bottom: 20px;
+            width: 850px;
+            height: 62px;
+            top: 3126.75px;
+            left: 15px;
+            gap: 0px;
+            border-radius: 12px;
+            border: 1px 0px 0px 0px;
+            opacity: 0px;
+            box-shadow: 0px 10px 40px 0px #0000000D;
+
+            p{
+                margin-left:21px;
+            }
+        }
+        
+    }
 }
