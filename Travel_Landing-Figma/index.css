@@ -3,7 +3,6 @@
   margin-left: 300px;
   margin-right: 300px;
   width: 1320px;
-  height: 8446px;
   margin: auto;
   font-family: "Inter", sans-serif;
 }
@@ -217,16 +216,16 @@
 }
 .container section .overview-cards-section {
   width: 880px;
-  height: 773px;
+  height: 1100px;
 }
 .container section .overview-cards-section .small-cards {
   display: flex;
   gap: 40px;
 }
-.container section .overview-cards-section .small-cards .scard-1 {
+.container section .overview-cards-section .small-cards .scard-1, .container section .overview-cards-section .small-cards .scard-2, .container section .overview-cards-section .small-cards .scard-3, .container section .overview-cards-section .small-cards .scard-4 {
   display: flex;
 }
-.container section .overview-cards-section .small-cards .scard-1 .box {
+.container section .overview-cards-section .small-cards .scard-1 .box, .container section .overview-cards-section .small-cards .scard-2 .box, .container section .overview-cards-section .small-cards .scard-3 .box, .container section .overview-cards-section .small-cards .scard-4 .box {
   width: 40px;
   height: 40px;
   top: 15px;
@@ -239,65 +238,12 @@
   border: 1px solid #E7E6E6;
   margin: 15px 10px 0px 15px;
 }
-.container section .overview-cards-section .small-cards .scard-1 div {
+.container section .overview-cards-section .small-cards .scard-1 div, .container section .overview-cards-section .small-cards .scard-2 div, .container section .overview-cards-section .small-cards .scard-3 div, .container section .overview-cards-section .small-cards .scard-4 div {
   margin-top: 11px;
 }
-.container section .overview-cards-section .small-cards .scard-2 {
-  display: flex;
-}
-.container section .overview-cards-section .small-cards .scard-2 .box {
-  width: 40px;
-  height: 40px;
-  top: 15px;
-  left: 15px;
-  padding: 15px 14.8px 15px 15px;
-  gap: 0px;
-  border-radius: 12px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-  border: 1px solid #E7E6E6;
-  margin: 15px 10px 0px 15px;
-}
-.container section .overview-cards-section .small-cards .scard-2 div {
-  margin-top: 11px;
-}
-.container section .overview-cards-section .small-cards .scard-3 {
-  display: flex;
-}
-.container section .overview-cards-section .small-cards .scard-3 .box {
-  width: 40px;
-  height: 40px;
-  top: 15px;
-  left: 15px;
-  padding: 15px 14.8px 15px 15px;
-  gap: 0px;
-  border-radius: 12px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-  border: 1px solid #E7E6E6;
-  margin: 15px 10px 0px 15px;
-}
-.container section .overview-cards-section .small-cards .scard-3 div {
-  margin-top: 11px;
-}
-.container section .overview-cards-section .small-cards .scard-4 {
-  display: flex;
-}
-.container section .overview-cards-section .small-cards .scard-4 .box {
-  width: 40px;
-  height: 40px;
-  top: 15px;
-  left: 15px;
-  padding: 15px 14.8px 15px 15px;
-  gap: 0px;
-  border-radius: 12px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-  border: 1px solid #E7E6E6;
-  margin: 15px 10px 0px 15px;
-}
-.container section .overview-cards-section .small-cards .scard-4 div {
-  margin-top: 11px;
+.container section .overview-cards-section .tour-overview {
+  border-bottom: 1px solid #E7E6E6;
+  height: 600px;
 }
 .container section .overview-cards-section .tour-overview h2 {
   width: 208.9px;
@@ -365,14 +311,14 @@
   margin-left: 20px;
   border-radius: 12px;
 }
-.container section .ticket-prices .date-time .date {
+.container section .ticket-prices .date-time .date, .container section .ticket-prices .date-time .time {
   width: 298px;
   height: 143px;
   display: flex;
   gap: 15px;
   margin-left: 31px;
 }
-.container section .ticket-prices .date-time .date .box {
+.container section .ticket-prices .date-time .date .box, .container section .ticket-prices .date-time .time .box {
   margin-top: 5px;
   width: 40px;
   height: 40px;
@@ -385,23 +331,7 @@
   background-color: #e8e4e4;
 }
 .container section .ticket-prices .date-time .time {
-  width: 298px;
-  height: 143px;
-  display: flex;
-  gap: 15px;
-  margin-left: 31px;
   margin-top: -55px;
-}
-.container section .ticket-prices .date-time .time .box {
-  width: 40px;
-  height: 40px;
-  padding: 15px 14.8px 15px 15px;
-  gap: 0px;
-  border-radius: 12px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-  border: 1px solid #E7E6E6;
-  background-color: #e8e4e4;
 }
 .container section .ticket-prices .tickets ul h4 {
   margin-left: -10px;
