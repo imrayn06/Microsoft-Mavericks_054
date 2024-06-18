@@ -18,9 +18,6 @@ Casio_Bootstrap/
   ├─ index.css
 ```
 
-## Video Walkthrough of the project
-Attach a very short video walkthrough of all of the features [ 1 - 3 minutes ]
-
 ## Features
 - Responsive Design
 - Grid Window
