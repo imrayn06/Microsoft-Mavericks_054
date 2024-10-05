@@ -7,7 +7,7 @@ The core functionality of the project revolves around empowering users to easily
 Frontend
 
 ## Deplolyed App
-Frontend: 
+Frontend: https://steady-duckanoo-852e8a.netlify.app/
 
 ## Directory Structure
 ```
