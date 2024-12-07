@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-SHOCK CASIO</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #000;
+            color: white;
+            padding: 10px 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .left, .right {
+            display: flex;
+            align-items: center;
+        }
+        .left {
+            flex: 1;
+        }
+        .logo {
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a, .right a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .right a {
+            margin-left: 20px;
+        }
+        .search {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+        .search input {
+            padding: 5px;
+            font-size: 14px;
+            border: none;
+            border-radius: 5px;
+        }
+        .search button {
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 5px;
+        }
+        /* Responsive styles */
+        @media (max-width: 1024px) {
+            .nav-links {
+                gap: 10px;
+            }
+            .right a {
+                margin-left: 10px;
+            }
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .right {
+                flex-direction: column;
+                width: 100%;
+                margin-top: 10px;
+            }
+            .nav-links {
+                flex-direction: column;
+                width: 100%;
+            }
+            .nav-links a {
+                padding: 10px 0;
+                width: 100%;
+                text-align: left;
+                border-top: 1px solid #444;
+            }
+            .right {
+                justify-content: space-between;
+            }
+            .search {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            .search input {
+                width: calc(100% - 30px);
+            }
+            .right a {
+                margin-left: 0;
+            }
+        }
+        @media (max-width: 480px) {
+            .nav-links a {
+                font-size: 12px;
+                padding: 8px 0;
+            }
+            .search input {
+                font-size: 12px;
+                padding: 4px;
+            }
+            .search button {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="left">
+                <div class="logo">
+                    <span>G-SHOCK</span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="search">
+                    <input type="text" placeholder="Search...">
+                    <button type="button">&#128269;</button>
+                </div>
+                <div class="nav-links">
+                    <a href="#">Watches</a>
+                    <a href="#">Electronic Musical Instruments</a>
+                    <a href="#">Calculators</a>
+                    <a href="#">Label Printers & Others</a>
+                    <a href="#">Support</a>
+                    <a href="#">Corporate</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
